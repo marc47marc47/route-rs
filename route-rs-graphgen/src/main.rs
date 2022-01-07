@@ -14,7 +14,7 @@ use crate::pipeline_graph::{EdgeData, NodeData, NodeKind, PipelineGraph, XmlNode
 use std::collections::HashMap;
 use std::fmt::Debug;
 use std::hash::Hash;
-use syn::export::ToTokens;
+use quote::ToTokens;
 
 mod codegen;
 mod pipeline_graph;
